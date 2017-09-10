@@ -1,6 +1,8 @@
 package Map;
 /**
  * HashMap是Map接口之中使用最多的一个子类
+ * 线程非安全，采取异步处理方式，性能相对更高，是JDK1.2推出的
+ * 允许将key或value设置为null
  */
 
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package Map;
+package map;
 /**
  * HashTable线程安全，采取同步处理方式，性能相对较低，是JDK1.0推出的
  * 不允许出现null,否则会出现空指针异常

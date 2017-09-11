@@ -1,4 +1,4 @@
-package Map;
+package map;
 /**
  * 需求：现在在一个List集合里面保存多个String对象，要求将这个List集合变成Set,而后将Set集合之中的全部数据保存在Map集合的
  * value里面，而Map里面的Key用UUID生成，最后将Map里面的数据进行迭代输出

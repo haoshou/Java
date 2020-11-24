@@ -9,9 +9,9 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 
 public class TestPrintStream {
-	public static void main(String[] args) throws FileNotFoundException {
-		PrintStream stream = new PrintStream(new FileOutputStream(new File("D:\\test.txt")));
-		stream.print("hell");
-		stream.close();
-	}
+    public static void main(String[] args) throws FileNotFoundException {
+        PrintStream stream = new PrintStream(new FileOutputStream(new File("D:\\test.txt")));
+        stream.print("hell");
+        stream.close();
+    }
 }

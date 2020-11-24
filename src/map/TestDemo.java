@@ -7,27 +7,27 @@ package map;
 import java.util.*;
 
 public class TestDemo {
-	public static void main(String[] args) {
-		ArrayList<String> list = new ArrayList<>();
-		list.add("test1");
-		list.add("test1");
-		list.add("test2");
-		list.add("test3");
-		Set<String> hashSet = new HashSet<>();
-		hashSet.addAll(list);
-		Iterator<String> iterator = hashSet.iterator();
-		HashMap<String, String> hashMap = new HashMap<>();
-		while(iterator.hasNext()){
-			String key = UUID.randomUUID().toString();
-			String value = iterator.next();
-			hashMap.put(key,value);
- 		}
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("test1");
+        list.add("test1");
+        list.add("test2");
+        list.add("test3");
+        Set<String> hashSet = new HashSet<>();
+        hashSet.addAll(list);
+        Iterator<String> iterator = hashSet.iterator();
+        HashMap<String, String> hashMap = new HashMap<>();
+        while (iterator.hasNext()) {
+            String key = UUID.randomUUID().toString();
+            String value = iterator.next();
+            hashMap.put(key, value);
+        }
 
-		Set<Map.Entry<String, String>> entrySet = hashMap.entrySet();
-		Iterator<Map.Entry<String, String>> entryIterator = entrySet.iterator();
-		while(entryIterator.hasNext()){
-			Map.Entry<String, String> stringEntry = entryIterator.next();
-			System.out.println("key:" + stringEntry.getKey()+"，"+"value:"+stringEntry.getValue());
-		}
-	}
+        Set<Map.Entry<String, String>> entrySet = hashMap.entrySet();
+        Iterator<Map.Entry<String, String>> entryIterator = entrySet.iterator();
+        while (entryIterator.hasNext()) {
+            Map.Entry<String, String> stringEntry = entryIterator.next();
+            System.out.println("key:" + stringEntry.getKey() + "，" + "value:" + stringEntry.getValue());
+        }
+    }
 }

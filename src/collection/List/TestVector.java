@@ -9,14 +9,14 @@ import java.util.List;
 import java.util.Vector;
 
 public class TestVector {
-	public static void main(String[] args) {
-		List<String> list = new Vector<>();
-		list.add("Hello");
-		list.add("Hello");
-		list.add("World");
-		for(int i = 0;i<list.size();i++){
-			String s = list.get(i);
-			System.out.println(s);
-		}
-	}
+    public static void main(String[] args) {
+        List<String> list = new Vector<>();
+        list.add("Hello");
+        list.add("Hello");
+        list.add("World");
+        for (int i = 0; i < list.size(); i++) {
+            String s = list.get(i);
+            System.out.println(s);
+        }
+    }
 }

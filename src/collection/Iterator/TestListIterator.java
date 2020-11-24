@@ -9,19 +9,19 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class TestListIterator {
-	public static void main(String[] args) {
-		List<String> list = new ArrayList<>();
-		list.add("Hello");
-		list.add("Hello");
-		list.add("World");
-		ListIterator<String> listIterator = list.listIterator();
-		while(listIterator.hasNext()){
-			String s = listIterator.next();
-			System.out.println(s);
-		}
-		while (listIterator.hasPrevious()){
-			String s = listIterator.previous();
-			System.out.println(s);
-		}
-	}
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<>();
+        list.add("Hello");
+        list.add("Hello");
+        list.add("World");
+        ListIterator<String> listIterator = list.listIterator();
+        while (listIterator.hasNext()) {
+            String s = listIterator.next();
+            System.out.println(s);
+        }
+        while (listIterator.hasPrevious()) {
+            String s = listIterator.previous();
+            System.out.println(s);
+        }
+    }
 }

@@ -7,13 +7,13 @@ package base.dataType;
  * 字符串是使用“”定义的一串数据。
  */
 public class TestString {
-	public static void main(String[] args) {
-		String str = "Hello";
-		str += "World";
-		System.out.println(str);
+    public static void main(String[] args) {
+        String str = "Hello";
+        str += "World";
+        System.out.println(str);
 
-		/**
-		 * 所有数据类型只要是碰到了String的连接操作（+），那么都会转向String类型
-		 */
-	}
+        /**
+         * 所有数据类型只要是碰到了String的连接操作（+），那么都会转向String类型
+         */
+    }
 }

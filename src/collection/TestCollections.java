@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class TestCollections {
-	public static void main(String[] args) {
-		ArrayList<String> arrayList = new ArrayList<>();
-		Collections.addAll(arrayList,"a","b","c");
-		System.out.println(arrayList);
-		Collections.reverse(arrayList);
-		System.out.println(arrayList);
-	}
+    public static void main(String[] args) {
+        ArrayList<String> arrayList = new ArrayList<>();
+        Collections.addAll(arrayList, "a", "b", "c");
+        System.out.println(arrayList);
+        Collections.reverse(arrayList);
+        System.out.println(arrayList);
+    }
 }
